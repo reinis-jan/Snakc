@@ -2,7 +2,11 @@ const BG_COLOUR = '#231f20';
 const SNAKE_COLOUR = '#c2c2c2';
 const FOOD_COLOUR = '#e66916';
 
+<<<<<<< Updated upstream
 const socket = io('https://evening-inlet-72358-5d944db1fe36.herokuapp.com');
+=======
+const socket = io('https://evening-inlet-72358-5d944db1fe36.herokuapp.com/');
+>>>>>>> Stashed changes
 
 socket.on('init', handleInit);
 socket.on('gameState', handleGameState);
